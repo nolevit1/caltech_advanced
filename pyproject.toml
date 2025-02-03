@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "caltech-advanced"
+version = "0.1.0"
+description = ""
+authors = ["Davy Cielen <davy@zuidermaas.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.10.0.84"
+pygame = "^2.6.1"
+pillow = "^11.1.0"
+mediapipe = "^0.10.20"
+panda3d = "^1.10.15"
+openai = "^1.59.8"
+langchain = "^0.3.14"
+langchain-community = "^0.3.14"
+langgraph = "^0.2.64"
+langchain-openai = "^0.3.0"
+flask = "^3.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
